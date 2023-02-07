@@ -18,3 +18,19 @@ ul {
 .center {
     text-align: center;
 }
+
+p:hover {
+    color: azure;
+}
+
+ul:hover {
+    color: azure;
+}
+
+img {
+position:absolute
+}
+
+a {
+color:darkslateblue
+}
