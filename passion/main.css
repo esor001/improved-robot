@@ -1,0 +1,20 @@
+body {
+background-color: transparent;
+color: lightcyan;
+}
+
+h1 {
+    color: white
+}
+
+ul {
+   color: rgba(102, 114, 110, 0.304);
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
