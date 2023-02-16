@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-container {
+    background: lightblue;
+    padding: 20px;
+    height:500px;
+    display:flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items:center;
+    align-content: stretch;
+    gap:20px;
+}
+
+.item{
+    background: lightgreen;
+    border:1px solid;
+    text-align:center;
+    width:300px;
+}
+
+.special {
+    display:flex;
+    height:300px;
+    justify-content:center;
+    align-items: center;
+}
+
+.pink {
+    background:pink;
+    padding: 10px;
+    border:1px solid;
+}
