@@ -5,6 +5,7 @@
 body {
     margin:0;
     text-decoration-color: aliceblue;
+    cursor: url(greentea.png), cell;
 }
 
 p {
