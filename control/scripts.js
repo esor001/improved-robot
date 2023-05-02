@@ -7,7 +7,6 @@ $(".reveal-btn").click(function(){
 
 
 $( ".draggable" ).draggable({ 
-   snap: true 
 });
 
 $(".hint-btn").click(function(){
