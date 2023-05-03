@@ -6,7 +6,8 @@ $(".reveal-btn").click(function(){
   });
 
 
-$( ".draggable" ).draggable({ 
+  $( ".draggable" ).draggable({ 
+    snap: true 
 });
 
 $(".hint-btn").click(function(){
