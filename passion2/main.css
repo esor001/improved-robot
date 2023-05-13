@@ -37,6 +37,9 @@ ul:hover {
     color: azure;
 }
 
+a:hover{
+    color:white;
+}
 .drag {
     position: absolute;
     z-index: 9;
