@@ -16,3 +16,7 @@ a:hover {
     color: azure;
     background-color: rgba(82, 115, 104, 0.428);
 }
+
+marquee {
+    padding: 5px;
+}
