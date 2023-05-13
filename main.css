@@ -2,3 +2,17 @@ body {
     background-color:lightcyan;
     color: darkgray;
 }
+
+h1:hover {
+    color:white;
+      background-color: rgba(82, 115, 104, 0.428);
+}
+p:hover {
+    color: azure;
+    background-color: rgba(82, 115, 104, 0.428);
+}
+
+a:hover {
+    color: azure;
+    background-color: rgba(82, 115, 104, 0.428);
+}

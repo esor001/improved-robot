@@ -3,6 +3,10 @@ background-color: transparent;
 color: lightcyan;
 }
 
+.drag {
+    cursor: grab;
+}
+
 h1 {
     color: white
 }
