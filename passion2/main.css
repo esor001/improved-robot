@@ -1,6 +1,7 @@
 body {
 background-color: transparent;
 color: lightcyan;
+list-style: disc inside url("planet.png");
 }
 
 .drag {
@@ -8,11 +9,16 @@ color: lightcyan;
 }
 
 h1 {
-    color: white
+    color: rgba(255, 255, 255, 0.499);
+    animation: pulse 2s infinite alternate ease-out;
 }
 
+h1:hover {
+    color: white
+}
 ul {
    color: rgba(102, 114, 110, 0.304);
+   animation: move 100s infinite alternate ease-out;
 }
 
 .right {
@@ -70,10 +76,23 @@ color:darkslateblue
 
 @keyframes move {
     0% {
-        transform:translateX(110vw);
+        transform:translateX(100vw);
         
     }
     100% {
-        transform:translateX(-110vw)
+        transform:translateX(-100vw)
+    }
+}
+
+@keyframes pulse {
+    0% {
+        color:honeydew;
+        transform:scale(1);
+        opacity:1;
+    }
+    100% {
+        color:rgb(114, 208, 232);
+        transform:scale(1.1);
+        opacity:.7;
     }
 }
